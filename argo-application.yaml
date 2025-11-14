@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/trinidevops/next-elysia-k8s-local.git
     targetRevision: HEAD
-    path: dev
+    path: k8s-local
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
