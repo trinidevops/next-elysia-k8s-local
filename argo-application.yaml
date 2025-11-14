@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    repoURL: https://github.com/trinidevops/next-elysia-k8s-local.git
     targetRevision: HEAD
     path: dev
   destination: 
