@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: sgift/next-elysia
+        image: sgift/next-elysia:beta-v0.0.1
         ports:
         - containerPort: 3000
         env:
