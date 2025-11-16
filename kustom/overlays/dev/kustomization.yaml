@@ -1,4 +1,4 @@
-base:
+resources:
 - ../../base
 
 namespace: dev
