@@ -35,17 +35,17 @@ spec:
             configMapKeyRef:
               name: mongo-config
               key: mongo-url
-# ---
-# apiVersion: v1
-# kind: Service
-# metadata:
-#   name: webapp-service
-# spec:
-#   type: NodePort
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp-service
+spec:
+  type: NodePort
   
-#   ports:
-#     - protocol: TCP
-#       port: 3000
-#       targetPort: 3000
-#       nodePort: 30100
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
+      nodePort: 30100
       
