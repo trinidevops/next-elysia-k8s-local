@@ -41,9 +41,12 @@ kind: Service
 metadata:
   name: webapp-service  
   ports:
-  - port: 80
+  - name: http
     protocol: TCP
-    
+    port: 80           # The port inside the cluster
+    targetPort: 3000   # The port inside your container
+    nodePort: 30100 
+
   selector:
     app: mywebapp
     tier: frontend
