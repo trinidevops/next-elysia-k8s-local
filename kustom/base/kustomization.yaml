@@ -11,6 +11,3 @@ labels:
 namePrefix: kustom-
 
 nameSuffix: -v1
-
-configMapGenerator:
-- name: mykustom-map
